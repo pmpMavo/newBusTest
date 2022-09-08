@@ -45,5 +45,5 @@ def set_time(message):
         bot.send_message(message.chat.id, text_pick_time, reply_markup=set_time_inline)
 
 
-
+print('hello')
 bot.polling(none_stop=True, interval=0)
